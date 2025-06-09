@@ -1,8 +1,6 @@
 from abc import ABC, abstractmethod
-import logging
+from logger import logging
 from typing import List
-
-logging.basicConfig(level=logging.INFO, format="%(asctime)s: %(message)s", force=True)
 
 
 class Book:

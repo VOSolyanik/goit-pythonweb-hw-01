@@ -1,7 +1,5 @@
 from abc import ABC, abstractmethod
-import logging
-
-logging.basicConfig(level=logging.INFO, format="%(asctime)s: %(message)s", force=True)
+from logger import logging
 
 
 class Vehicle(ABC):
